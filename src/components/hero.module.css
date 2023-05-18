@@ -3,12 +3,14 @@
   grid-template-columns: 1fr 1fr;
   border-bottom: solid 1px var(--color-light);
   padding: 6rem 0;
+  gap: 2rem;
 }
 
 .img {
-  grid-column-start: 1;
-  justify-self: center;
-  align-self: center;
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
 }
 
 .container {
@@ -24,6 +26,16 @@
     flex-direction: column;
     position: relative;
     border-bottom: solid 0.5px var(--color-dark);
-    padding-top: 1rem;
+    padding: 1rem 0;
+  }
+
+  .img {
+    justify-self: center;
+    align-self: center;
+  }
+
+  .container {
+    margin-top: 1rem;
+    text-align: center;
   }
 }

@@ -4,6 +4,20 @@
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 1rem;
 }
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+  }
+
+  .list {
+    list-style: none;
+    text-align: center;
+  }
+}
 
 .list {
   list-style: none;
