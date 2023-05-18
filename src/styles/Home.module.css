@@ -1,0 +1,30 @@
+.grid {
+  padding-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem;
+}
+
+.list {
+  list-style: none;
+}
+
+.listnav {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem 0;
+  border-top: solid 1px var(--color-light);
+}

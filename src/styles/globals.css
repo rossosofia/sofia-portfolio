@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "LIQUIDO";
+  src: url("../assets/LIQUIDO-Fluid.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --color-dark: #2b2c2e;
+  --color-light: #eebab2;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "LIQUIDO";
+  color: var(--color-light);
+  padding-bottom: 2rem;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  color: var(--color-light);
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  line-height: 0.9;
+  padding-bottom: 2rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+p,
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+  line-height: 1.5rem;
+}
+
+body {
+  background-color: var(--color-dark);
+  color: white;
+  margin: 2rem 6rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-light);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding-bottom: 2rem;
+}
+
+section {
+  padding-top: 2rem;
+}

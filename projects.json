@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "EDC",
+    "description": "School project at KEA made in collaboration with Charlie Tango.",
+    "keywords": "Next.js - Supabase - Vercel",
+    "githubLink": "https://github.com/rossosofia/11C.15-hacking-hogwarts",
+    "demoLink": "https://rossosofia.github.io/11C.15-hacking-hogwarts/"
+  },
+
+  {
+    "id": 2,
+    "title": "Hacking Hogwarts",
+    "description": "A students management system for Hogwarts - with some cool easter eggs.",
+    "keywords": "HTML - CSS - Javascript",
+    "githubLink": "https://github.com/rossosofia/11C.15-hacking-hogwarts",
+    "demoLink": "https://rossosofia.github.io/11C.15-hacking-hogwarts/"
+  },
+
+  {
+    "id": 3,
+    "title": "Piscaria",
+    "description": "A click-and-collect game in a Sicilian fish market.",
+    "keywords": "HTML - CSS - Javascript",
+    "githubLink": "https://github.com/rossosofia/11C.15-hacking-hogwarts",
+    "demoLink": "https://rossosofia.github.io/11C.15-hacking-hogwarts/"
+  },
+
+  {
+    "id": 4,
+    "title": "Norrebro Kolonial",
+    "description": "A website for a small local store - port of a broader multimedia design project.",
+    "keywords": "HTML - CSS - Javascript",
+    "githubLink": "https://github.com/rossosofia/11C.15-hacking-hogwarts",
+    "demoLink": "https://rossosofia.github.io/11C.15-hacking-hogwarts/"
+  }
+]
