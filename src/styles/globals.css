@@ -6,8 +6,9 @@
 }
 
 :root {
-  --color-dark: #2b2c2e;
-  --color-light: #eebab2;
+  --color-dark: #1b164a;
+  --color-light: #e4dfcd;
+  --color-accent: #ce1948;
 }
 
 * {
@@ -15,19 +16,39 @@
   margin: 0;
 }
 
-h1,
-h2 {
+img {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#doodle {
+  rotate: -1deg;
+}
+
+#pola {
+  rotate: 3deg;
+  transform: translate(120%, -80%);
+  width: 40%;
+}
+
+h1 {
   font-family: "LIQUIDO";
-  color: var(--color-light);
+  color: var(--color-accent);
   padding-bottom: 2rem;
 }
+
+h2 {
+  font-family: "LIQUIDO";
+  color: var(--color-accent);
+  padding-bottom: 2rem;
+}
+
 h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
   letter-spacing: 0.05rem;
   line-height: 1.5rem;
   font-size: 1rem;
-  color: var(--color-light);
+  color: var(--color-dark);
 }
 
 h1 {
@@ -51,9 +72,13 @@ li {
 }
 
 body {
-  background-color: var(--color-dark);
-  color: white;
+  background-color: var(--color-light);
   margin: 2rem 6rem;
+  color: var(--color-dark);
+}
+
+p {
+  color: var(--color-dark);
 }
 
 @media (max-width: 768px) {
@@ -71,7 +96,7 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--color-light);
+  color: var(--color-dark);
 }
 
 a:hover {

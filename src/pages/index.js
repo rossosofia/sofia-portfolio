@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
     {
       "id": 0,
       "title": "FooFest Extravaganza",
-      "description": "*WIP* - Working on this for our final semester project: a lot of flows and forms",
+      "description": "Our final semester project: a lot of flows and forms",
       "keywords": "Next.js - Tailwind - MUI Library ",
       "link": "https://github.com/henrynavntoft/frontend_foofest"
     },
