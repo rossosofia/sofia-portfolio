@@ -38,7 +38,7 @@ const Header = () => {
       Now, I'm diving into the world of coding with a focus on creating engaging user experiences.
       <br></br>
       <br></br>
-      I'm on the lookout for opportunities to apply my skills and contribute to your projects.
+      I'm currently looking for a full time job or an internship opportunity in front-end development. 
       
       </p>
       </div>

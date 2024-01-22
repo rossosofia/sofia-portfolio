@@ -1,7 +1,7 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border-bottom: solid 1px var(--color-dark);
+  /* border-bottom: solid 1px var(--color-dark); */
   padding: 3rem 0 0 0;
   gap: 2rem;
 }

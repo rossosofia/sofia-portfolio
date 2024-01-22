@@ -12,7 +12,13 @@ const ProjectCard = ({ title, description, keywords, link }) => {
         <p className={styles.bold}>{title}</p>
         <p className={styles.desc}>{description}</p>
         <p className={styles.keyw}>{keywords}</p>
+        <div className={styles.flex2}> 
+      <button className={styles.button}>GitHub</button>
+      <button className={styles.button}>Website</button>
       </div>
+      </div>
+
+
     </article>
 </Link>
 

@@ -5,10 +5,17 @@
   font-style: normal;
 }
 
-:root {
+/* :root {
   --color-dark: #1b164a;
   --color-light: #e4dfcd;
   --color-accent: #ce1948;
+} */
+
+:root {
+  --color-light: #f4e8e3;
+  --color-dark: #342f2b;
+  --color-accent: #e65103;
+  --color-accent-2: #b6b374;
 }
 
 * {
@@ -108,5 +115,8 @@ main {
 }
 
 section {
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
+}
+
+@media (prefers-color-scheme: dark) {
 }

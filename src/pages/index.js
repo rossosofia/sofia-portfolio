@@ -6,14 +6,22 @@ import Footer from '../components/Footer';
 
   const projects =[
     {
-      "id": 0,
+      "id": 5,
+      "title": "Copenhagen Roller Derby",
+      "description": "Graduation project: Website for my beloved Roller Derby Team ",
+      "keywords": "Photoshop/Illustrator - HTML - CSS - Javascript",
+      "link": "https://rossosofia.github.io/crd_exam/"
+    },
+
+    {
+      "id": 4,
       "title": "FooFest Extravaganza",
       "description": "Our final semester project: a lot of flows and forms",
       "keywords": "Next.js - Tailwind - MUI Library ",
       "link": "https://github.com/henrynavntoft/frontend_foofest"
     },
     {
-      "id": 1,
+      "id": 3,
       "title": "EDC",
       "description": "School project at KEA made in collaboration with Charlie Tango.",
       "keywords": "Next.js - Supabase",
@@ -29,20 +37,23 @@ import Footer from '../components/Footer';
     },
   
     {
-      "id": 3,
+      "id": 1,
       "title": "Piscaria",
       "description": "A click-and-collect game in a Sicilian fish market.",
-      "keywords": "HTML - CSS - Vanilla Javascript",
+      "keywords": "HTML - CSS - Javascript",
       "link" : "https://github.com/rossosofia/piscaria-game"
     },
   
     {
-      "id": 4,
+      "id": 0,
       "title": "Norrebro Kolonial",
       "description": "A website for a small local store - part of a broader multimedia design project.",
       "keywords": "HTML - CSS - Vanilla Javascript",
       "link" : "https://github.com/rossosofia/kolonial-website"
     }
+
+
+    
   ]
   
 export default function Home() {
