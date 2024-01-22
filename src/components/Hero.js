@@ -29,11 +29,17 @@ const Header = () => {
       <div className={styles.container}>
       <h1>Sofia Amoroso</h1>
       <p>
-      I'm a <strong>front-end developer</strong> about to complete my multimedia design education at KEA. I'm currently looking for a part-time job as a <strong>student helper!</strong>
+      Hello there! 👋
+      <br></br>
+      I'm Sofia, a multimedia designer and a <strong>front-end developer.</strong> 
       <br></br>
       <br></br>
-      I have a background in product design and experience in graphic design for advertising.
-      <br></br>Here you will find a selection of my most relevant works showcasing my skills in web design, coding, and user experience.
+      My journey started in Industrial Design, where I gained solid foundations in design thinking and concept development.
+      Now, I'm diving into the world of coding with a focus on creating engaging user experiences.
+      <br></br>
+      <br></br>
+      I'm on the lookout for opportunities to apply my skills and contribute to your projects.
+      
       </p>
       </div>
       </header>
