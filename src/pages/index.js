@@ -104,6 +104,7 @@ export default function Home() {
         <ul className={styles.list}>
           <li>Typescript</li>
           <li>React Native</li>
+          <li>p5.js</li>
         </ul>
         </div>
       </div>

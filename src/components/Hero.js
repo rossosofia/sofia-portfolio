@@ -38,8 +38,10 @@ const Header = () => {
       Now, I'm diving into the world of coding with a focus on creating engaging user experiences.
       <br></br>
       <br></br>
-      I'm currently looking for a full time job or an internship opportunity in front-end development. 
-      
+      I'm currently looking for a full time job or an internship opportunity in front-end development. <strong className={styles.interested}>Interested?</strong>
+      <br></br>
+      <br></br>
+      <button className={styles.emailbutton}>Email me</button>
       </p>
       </div>
       </header>
