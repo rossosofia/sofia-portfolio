@@ -59,7 +59,7 @@ import Footer from '../components/Footer';
 export default function Home() {
   return (
     <>
-    <Navbar></Navbar>
+    {/* <Navbar></Navbar> */}
     <Hero></Hero>
     <main>
     <section id="projects">

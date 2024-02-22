@@ -1,32 +1,13 @@
 import profilePic from '/src/assets/doodle.jpg';
 import polaroid from '/src/assets/pola.jpeg';
+import propic from '/src/assets/portfolio-pic.png';
 import Image from 'next/image';
 import styles from './hero.module.css';
 
 const Header = () => {
     return (
       <header className={styles.grid}>
-        <div >
-        <Image
-        className={styles.img}
-        id= "doodle"
-        src={profilePic}
-        alt="My Image"
-        width={200}
-        height={200}
-        />
-        <Image
-        className={styles.img}
-        id= "pola"
-        src={polaroid}
-        alt="My Image"
-        width={200}
-        height={200}
-        />
-
-        </div>
-
-      <div className={styles.container}>
+              <div className={styles.container}>
       <h1>Sofia Amoroso</h1>
       <p>
       Hello there! 👋
@@ -44,6 +25,15 @@ const Header = () => {
       <button className={styles.emailbutton}>Email me</button>
       </p>
       </div>
+        <Image
+        className={styles.img}
+        id= "doodle"
+        src={propic}
+        alt="My Image"
+        width={200}
+        height={200}
+        />
+
       </header>
     );
   };

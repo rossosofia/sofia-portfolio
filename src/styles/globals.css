@@ -23,20 +23,6 @@
   margin: 0;
 }
 
-img {
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-#doodle {
-  rotate: -1deg;
-}
-
-#pola {
-  rotate: 3deg;
-  transform: translate(120%, -80%);
-  width: 40%;
-}
-
 h1 {
   font-family: "LIQUIDO";
   color: var(--color-accent);
@@ -80,7 +66,7 @@ li {
 
 body {
   background-color: var(--color-light);
-  margin: 2rem 6rem;
+  margin: 2rem 2rem;
   color: var(--color-dark);
 }
 
