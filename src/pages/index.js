@@ -8,9 +8,11 @@ import Footer from '../components/Footer';
     {
       "id": 5,
       "title": "Copenhagen Roller Derby",
-      "description": "Graduation project: Website for my beloved Roller Derby Team ",
-      "keywords": "Photoshop/Illustrator - HTML - CSS - Javascript",
-      "link": "https://rossosofia.github.io/crd_exam/"
+      "description": "Graduation project: Website for my beloved Roller Derby Team",
+      "keywords": "Photoshop/Illustrator, HTML, CSS, Javascript",
+      "githubLink": "https://github.com/rossosofia/crd_exam",
+      "websiteLink": "https://rossosofia.github.io/crd_exam/"
+
     },
 
     {
@@ -18,14 +20,17 @@ import Footer from '../components/Footer';
       "title": "FooFest Extravaganza",
       "description": "Our final semester project: a lot of flows and forms",
       "keywords": "Next.js - Tailwind - MUI Library ",
-      "link": "https://github.com/henrynavntoft/frontend_foofest"
+      "githubLink": "https://github.com/henrynavntoft/frontend_foofest",
+      "websiteLink": "https://frontend-foofest.vercel.app/"
     },
+
     {
       "id": 3,
       "title": "EDC",
       "description": "School project at KEA made in collaboration with Charlie Tango.",
       "keywords": "Next.js - Supabase",
-      "link" : "https://github.com/rossosofia/charlie-tango-case"
+      "githubLink" : "https://github.com/rossosofia/charlie-tango-case",
+      "websiteLink": "https://charlie-tango-case-nu.vercel.app"
     },
   
     {
@@ -33,7 +38,8 @@ import Footer from '../components/Footer';
       "title": "Hacking Hogwarts",
       "description": "A students management system for Hogwarts - with some cool easter eggs.",
       "keywords": "HTML - CSS - Javascript",
-      "link" : "https://github.com/rossosofia/project-hacking-hogwarts"
+      "githubLink" : "https://github.com/rossosofia/project-hacking-hogwarts",
+      "websiteLink": "https://rossosofia.github.io/project-hacking-hogwarts/"
     },
   
     {
@@ -41,7 +47,8 @@ import Footer from '../components/Footer';
       "title": "Piscaria",
       "description": "A click-and-collect game in a Sicilian fish market.",
       "keywords": "HTML - CSS - Javascript",
-      "link" : "https://github.com/rossosofia/piscaria-game"
+      "githubLink" : "https://github.com/rossosofia/piscaria-game",
+      "websiteLink": "https://rossosofia.github.io/piscaria-game/"
     },
   
     {
@@ -49,7 +56,8 @@ import Footer from '../components/Footer';
       "title": "Norrebro Kolonial",
       "description": "A website for a small local store - part of a broader multimedia design project.",
       "keywords": "HTML - CSS - Vanilla Javascript",
-      "link" : "https://github.com/rossosofia/kolonial-website"
+      "githubLink" : "https://github.com/rossosofia/kolonial-website",
+      "websiteLink": "https://rossosofia.github.io/kolonial-website/"
     }
 
 
@@ -59,25 +67,24 @@ import Footer from '../components/Footer';
 export default function Home() {
   return (
     <>
-    {/* <Navbar></Navbar> */}
+    <Navbar></Navbar>
     <Hero></Hero>
     <main>
     <section id="projects">
-        <h2 className={styles.h2}>Projects</h2>
-        <div className={styles.grid}>
-
-        {projects.map((project) => (
-        <ProjectCard
-          key={project.title}
-          title={project.title}
-          description={project.description}
-          keywords={project.keywords}
-          link={project.link}
-
-        />
-      ))}
-      </div>
-      </section>
+  <h2 className={styles.h2}>Projects</h2>
+  <div className={styles.grid}>
+    {projects.map((project) => (
+      <ProjectCard
+        key={project.title}
+        title={project.title}
+        description={project.description}
+        keywords={project.keywords}
+        githubLink={project.githubLink} 
+        websiteLink={project.websiteLink} 
+      />
+    ))}
+  </div>
+</section>
     <section id="techstack">
       <h2>
         Tech Stack
