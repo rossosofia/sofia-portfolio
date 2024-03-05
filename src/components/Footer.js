@@ -4,10 +4,10 @@ import styles from "../styles/Home.module.css"
 const Footer = () => {
     return (
         <footer id="footer" className={styles.footer}>
-        <h3>Get in Contact!</h3>
+        <h4>Get in Contact!</h4>
         <ul className={styles.listnav}>
         <li>
-            <Link href="sofia_amoroso_cv.pdf" target="_blank">
+            <Link href="sofia-amoroso-resume.pdf" target="_blank">
               <p>Check my CV</p>
             </Link>
           </li>

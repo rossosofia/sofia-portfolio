@@ -12,9 +12,18 @@
 
 /* Style for the scrolling text */
 .scrollingText {
-  animation: scrollText 10s linear infinite;
+  animation: scrollText 20s linear infinite;
   white-space: nowrap;
   overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.scrollingText a {
+  color: var(--color-accent);
+  text-decoration: none;
 }
 
 /* Keyframes for scrolling text animation */
@@ -23,10 +32,16 @@
     transform: translateX(100%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-90%);
   }
 }
-
 .paused {
   animation-play-state: paused;
+}
+
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .scrollingText {
+    animation: scrollText 15s linear infinite;
+  }
 }
