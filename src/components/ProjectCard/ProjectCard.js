@@ -5,10 +5,13 @@ import Link from 'next/link';
 const ProjectCard = ({ title, description, keywords, githubLink, websiteLink }) => {
 
   return (
-    <article>
       <div className={styles.flex}>
-        <p className={styles.bold}>{title}</p>
-        <p className={styles.desc}>{description}</p>
+        <div>
+          <p className={styles.bold}>{title}</p>
+          <p className={styles.desc}>{description}</p>
+        </div>
+
+        <div>
         <p className={styles.keyw}>{keywords}</p>
         <div className={styles.flex2}>
           {githubLink && (
@@ -22,8 +25,9 @@ const ProjectCard = ({ title, description, keywords, githubLink, websiteLink }) 
             </a>
           )}
         </div>
+        </div>
+
       </div>
-    </article>
   );
 };
 

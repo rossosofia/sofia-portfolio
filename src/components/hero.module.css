@@ -10,7 +10,7 @@
 
 .interested {
   font-weight: bold;
-  color: var(--color-accent-2);
+  color: var(--color-accent);
 }
 
 .emailbutton {
@@ -20,8 +20,8 @@
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  border: 1px solid var(--color-accent-2); /* Border color */
-  color: var(--color-accent-2); /* Text color */
+  border: 1px solid var(--color-accent); /* Border color */
+  color: var(--color-accent); /* Text color */
   background-color: var(--color-light); /* Background color */
   border-radius: 2rem;
   transition: background-color 0.3s, color 0.3s;
@@ -30,7 +30,7 @@
 
 /* Hover styles */
 .emailbutton:hover {
-  background-color: var(--color-accent-2); /* Hover background color */
+  background-color: var(--color-accent); /* Hover background color */
   color: var(--color-light); /* Hover text color */
 }
 
