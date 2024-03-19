@@ -1,9 +1,8 @@
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* border-bottom: solid 1px var(--color-dark); */
-  padding: 3rem 0 0 0;
-  gap: 2rem;
+  grid-template-columns: 1.5fr 1fr;
+  padding: 4rem 0 0 0;
+  gap: 1rem;
   justify-items: center;
   align-items: center;
 }
@@ -11,6 +10,11 @@
 .interested {
   font-weight: bold;
   color: var(--color-accent);
+}
+
+.container p {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
 }
 
 .emailbutton {

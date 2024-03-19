@@ -90,6 +90,7 @@ a.link {
 .button:focus {
   background-color: var(--color-accent);
   color: var(--color-light);
+  border: solid 1px transparent;
 }
 
 .button:active {
