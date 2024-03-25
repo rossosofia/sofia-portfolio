@@ -81,8 +81,7 @@ p {
 
 @media (max-width: 768px) {
   body {
-    margin: 2rem auto; /* Adjust the margin value as needed */
-    max-width: 400px; /* Adjust the max-width value to match the grid width */
+    /* max-width: 400px; */
   }
 
   h1,
