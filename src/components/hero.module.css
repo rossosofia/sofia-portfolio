@@ -44,11 +44,9 @@
 }
 
 .container {
-  /* grid-column-start: 2; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-height: 40rem;
 }
 
 @media only screen and (max-width: 900px) {
