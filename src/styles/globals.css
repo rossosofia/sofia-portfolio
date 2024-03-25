@@ -79,18 +79,6 @@ p {
   color: var(--color-dark);
 }
 
-@media (max-width: 768px) {
-  body {
-    /* max-width: 400px; */
-  }
-
-  h1,
-  h2,
-  h3 {
-    text-align: center;
-  }
-}
-
 a {
   text-decoration: none;
   color: var(--color-dark);
@@ -100,12 +88,20 @@ a:hover {
   text-decoration: underline;
 }
 
-main {
-  padding-bottom: 2rem;
-}
+@media only screen and (max-width: 900px) {
+  body {
+    margin: 2rem 1rem;
+  }
 
-section {
-  padding-top: 4rem;
+  section {
+    padding-top: 2rem;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
 }
 
 @media (prefers-color-scheme: dark) {

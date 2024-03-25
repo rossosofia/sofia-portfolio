@@ -12,14 +12,17 @@ const Header = () => {
       <p>
       Hello there! 👋
       <br></br>
-      I'm Sofia, a multimedia designer and a <strong>front-end developer.</strong> 
+      <br></br>
+      I am Sofia, a <strong>multimedia designer</strong> and <strong>front-end developer</strong>, with a background in industrial design.
       <br></br>
       <br></br>
-      My journey started in Industrial Design, where I gained solid foundations in design thinking and concept development.
-      Now, I'm diving into the world of coding with a focus on creating engaging user experiences.
+      In my toolbox I have a mix of creativity and technical skills, with solid foundations in design thinking, user research, and visual design.
       <br></br>
       <br></br>
-      I'm currently looking for a full time job or an internship opportunity in front-end development. <strong className={styles.interested}>Interested?</strong>
+      I am currently diving into the world of web development and user interfaces.
+      <br></br>
+      <br></br>
+      I'm looking for a full time job or an internship opportunity in front-end development. <strong className={styles.interested}>Interested?</strong>
       <br></br>
       <br></br>
       <button className={styles.emailbutton}>Email me</button>
