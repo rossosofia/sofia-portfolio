@@ -43,3 +43,7 @@
   background-color: var(--color-accent);
   margin: 2rem -2rem -2rem -2rem;
 }
+
+.footer p {
+  color: var(--color-light);
+}

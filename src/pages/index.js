@@ -46,7 +46,7 @@ import Footer from '../components/Footer';
       "id": 1,
       "title": "Piscaria",
       "description": "A click-and-collect game in a Sicilian fish market.",
-      "keywords": "HTML - CSS - Javascript",
+      "keywords": "Character Design - HTML - CSS - Javascript",
       "githubLink" : "https://github.com/rossosofia/piscaria-game",
       "websiteLink": "https://rossosofia.github.io/piscaria-game/"
     },
@@ -54,8 +54,8 @@ import Footer from '../components/Footer';
     {
       "id": 0,
       "title": "Norrebro Kolonial",
-      "description": "A website for a small local store - part of a broader multimedia design project.",
-      "keywords": "HTML - CSS - Vanilla Javascript",
+      "description": "My very first website designed for a small local store - part of a broader multimedia design project.",
+      "keywords": "HTML - CSS - Javascript",
       "githubLink" : "https://github.com/rossosofia/kolonial-website",
       "websiteLink": "https://rossosofia.github.io/kolonial-website/"
     }
