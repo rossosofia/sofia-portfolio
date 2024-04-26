@@ -10,22 +10,24 @@ const Header = () => {
               <div className={styles.container}>
       <h1>Sofia Amoroso</h1>
       <p>
-      Hello there! 👋
+      Hello there!
       <br></br>
       <br></br>
-      I am Sofia, a <strong>multimedia designer</strong> and <strong>front-end developer</strong>, with a background in industrial design.
+      I am a passionate <strong>multimedia designer</strong>, with a background in <strong>industrial design</strong>.
       <br></br>
       <br></br>
-      In my toolbox I have a mix of <strong>creativity</strong> and <strong>technical skills</strong>, with solid foundations in graphic design, UX/UI and front-end development.
+      In my toolbox I have a mix of creativity and technical skills with solid foundations in <strong>graphic design</strong>, <strong>UX/UI</strong> and <strong>front-end development</strong>.
       <br></br>
       <br></br>
-      I'm looking for a <strong>job</strong> or an <strong>internship opportunity</strong> in front-end development.
-      <br></br>
-      <strong className={styles.interested}>Do you have any?</strong>
+      I am a reflective and curious person, deeply in love with visual arts and roller derby.
       <br></br>
       <br></br>
-      <button className={styles.emailbutton}>Email me</button>
       </p>
+      <div>
+      <p><strong className={styles.interested}>Do you want to collaborate?</strong><button className={styles.emailbutton}>Email me</button></p>
+      </div>
+      <br></br>
+
       </div>
         <Image
         className={styles.img}

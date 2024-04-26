@@ -12,14 +12,21 @@
   color: var(--color-accent);
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .container p {
-  font-size: 1.3rem;
-  line-height: 1.8rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  width: 80%;
 }
 
 .emailbutton {
   display: inline-block;
   padding: 1rem 2rem;
+  margin-left: 1rem;
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
@@ -39,14 +46,8 @@
 }
 
 .img {
-  height: 100%;
-  width: auto;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  height: auto;
+  width: 100%;
 }
 
 @media only screen and (max-width: 900px) {
@@ -60,6 +61,7 @@
   .img {
     justify-self: center;
     align-self: center;
+    width: 50%;
   }
 
   .container {
@@ -69,5 +71,7 @@
   .container p {
     font-size: 1rem;
     line-height: 1.5rem;
+    width: 100%;
+    align-self: center;
   }
 }
