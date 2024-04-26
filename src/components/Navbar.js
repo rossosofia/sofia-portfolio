@@ -22,7 +22,7 @@ const Navbar = () => {
             <p
             className={`${styles.scrollingText} ${isHovered ? styles.paused : ""}`}
 >
-            ★ ★ ★ Hey! I'm looking for professional opportunities in front-end development. 
+            ★ ★ ★ Hey! I'm looking for professional opportunities in digital design and front-end development. 
               Do you have any? Email me <a href="mailto:your@email.com">HERE</a> ★ ★ ★
             </p>
           </div>
