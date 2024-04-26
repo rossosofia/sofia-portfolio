@@ -93,9 +93,10 @@ export default function Home() {
         <div>
         <h3>Comfortable with</h3>
         <ul className={styles.list}>
+          <li>Adobe Suite</li>
           <li>HTML</li>
           <li>CSS</li>
-          <li>Vanilla Javascript</li>
+          <li>Javascript</li>
         </ul>
         </div>
         <div>
